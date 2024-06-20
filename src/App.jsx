@@ -1,7 +1,12 @@
 // import { useState } from 'react'
 import "./App.css";
+import Canvas from "./components/Canvas";
 
 export default function App() {
+  /*FIXED CONSTANTS FOR DEVELOPMENT*/
+  const ROWS = 10;
+  const COLUMNS = 10;
+
   return (
     <>
       <div className="top">
@@ -18,7 +23,7 @@ export default function App() {
           <p>tileset</p>
         </div>
         <div className="mid-right">
-          <p>grid</p>
+          <Canvas rows={ROWS} cols={COLUMNS} />
         </div>
       </div>
       <div className="bottom">
