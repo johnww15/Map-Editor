@@ -39,3 +39,21 @@
   justify-content: space-between;
   max-width: 100%;
 }
+
+.canvas-grid{
+    width: 340px; /*To be recalculated later on*/
+    height: 340px; /*To be recalculated later on*/
+    border: 5px solid black;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.canvas-item{
+  width: 32px;
+  height: 32px;
+  background-color:white;
+  /*borders to be removed*/
+  border:1px solid black;
+  display: flex;
+}
